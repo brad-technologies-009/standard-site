@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Planet Earth - Protecting our planet through environmental awareness, sustainability, and climate action">
+    <meta name="keywords" content="environment, sustainability, climate change, earth, nature, conservation">
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20211029/ourmid/pngtree-world-or-earth-vector-illustration-png-image_4014812.png"/>
+    <title>Planet Earth - Environmental Awareness & Sustainability</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top transparent-navbar" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="bi bi-globe-americas me-2"></i>Planet Earth
+            </a>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#climate">Climate</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item">
+                        <div class="theme-toggle">
+                            <button class="btn btn-outline-primary btn-sm" id="themeToggle">
+                                <i class="bi bi-sun-fill" id="themeIcon"></i>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Mobile Controls -->
+            <div class="mobile-controls d-lg-none position-absolute top-0 end-0 mt-3 me-3 d-flex gap-2 z-3">
+                <button class="btn btn-outline-primary btn-sm" id="themeToggleMobile">
+                    <i class="bi bi-sun-fill" id="themeIconMobile"></i>
+                </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h1 class="hero-title mb-4">Protecting Our Planet Starts Now</h1>
+                    <p class="hero-subtitle mb-5">Join the global movement for environmental awareness, sustainability, and climate action. Together, we can make a difference for future generations.</p>
+                    <a href="#about" class="btn btn-primary btn-lg me-3" style="z-index: 9999;">Learn More</a>
+                    <a href="#climate" class="btn btn-outline-light btn-lg">Take Action</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4 mb-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-tree-fill"></i>
+                        </div>
+                        <h4>Forests</h4>
+                        <p>Protecting our lungs of the Earth through conservation and sustainable forestry practices.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-water"></i>
+                        </div>
+                        <h4>Oceans</h4>
+                        <p>Preserving marine ecosystems and combating ocean pollution for a healthier planet.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon mb-3">
+                            <i class="bi bi-thermometer-sun"></i>
+                        </div>
+                        <h4>Climate</h4>
+                        <p>Taking action against climate change through renewable energy and sustainable living.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="section-title mb-4">Earth's Ecosystems Need Our Protection</h2>
+                    <p class="mb-4">Our planet is home to incredible biodiversity and complex ecosystems that have evolved over millions of years. From tropical rainforests to coral reefs, from arctic tundra to grasslands, each ecosystem plays a vital role in maintaining Earth's delicate balance.</p>
+                    <p class="mb-4">Climate change, pollution, and human activities threaten these precious environments. By understanding our impact and taking conscious action, we can work together to preserve the natural world for future generations.</p>
+                    <a href="#climate" class="btn btn-success">Join Our Mission</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80" alt="Earth's Ecosystems" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grid Section -->
+    <section id="topics" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Explore Earth's Wonders</h2>
+                    <p class="section-subtitle">Discover the beauty and importance of our planet's diverse environments</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="topic-card">
+                        <img src="https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Wildlife" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Wildlife</h5>
+                            <p>Protecting endangered species and their habitats</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="topic-card">
+                        <img src="https://images.pexels.com/photos/247421/pexels-photo-247421.jpeg" alt="Forests" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Forests</h5>
+                            <p>Preserving the lungs of our planet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="topic-card">
+                        <img src="https://images.pexels.com/photos/1766838/pexels-photo-1766838.jpeg" alt="Rivers" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Rivers</h5>
+                            <p>Maintaining freshwater ecosystems</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="topic-card">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Climate Zones" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Climate Zones</h5>
+                            <p>Understanding global weather patterns</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Nature's Beauty</h2>
+                    <p class="section-subtitle">Experience the breathtaking beauty of our planet</p>
+                </div>
+            </div>
+            <div id="natureCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#natureCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#natureCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#natureCarousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Mountain Landscape">
+                        <div class="carousel-caption">
+                            <h5>Majestic Mountains</h5>
+                            <p>Towering peaks that touch the sky</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/2307635/pexels-photo-2307635.jpeg" class="d-block w-100" alt="Ocean View">
+                        <div class="carousel-caption">
+                            <h5>Pristine Oceans</h5>
+                            <p>The vast blue that covers our world</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg" class="d-block w-100" alt="Forest Canopy">
+                        <div class="carousel-caption">
+                            <h5>Lush Forests</h5>
+                            <p>Green canopies full of life</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#natureCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#natureCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Climate Section -->
+    <section id="climate" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+            <h2 class="section-title">The Climate Crisis is Real</h2>
+            <p class="section-subtitle">
+                Rising temperatures, extreme weather, and melting glaciers are signs that our planet needs urgent care.
+            </p>
+            </div>
+
+            <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <img src="https://images.pexels.com/photos/60013/desert-drought-dehydrated-clay-soil-60013.jpeg"
+                    alt="Climate Change Impact"
+                    class="img-fluid rounded shadow" />
+            </div>
+
+            <div class="col-lg-6">
+                <h3 class="mb-3 text-success">Why It Matters</h3>
+                <p>
+                Greenhouse gas emissions from fossil fuels and deforestation are warming the Earth. This impacts agriculture, sea levels, and global health.
+                </p>
+                <p>
+                We must reduce carbon emissions, transition to renewable energy, and advocate for climate policies that protect our shared future.
+                </p>
+                <a href="#contact" class="btn btn-primary mt-3">Join the Cause</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eco Products Section -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Eco-Friendly Initiatives</h2>
+                    <p class="section-subtitle">Supporting sustainable products and earth-saving initiatives</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Solar Panels" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Solar Energy Solutions</h5>
+                            <p>Harness the power of sun for clean energy</p>
+                            <div class="price mb-3">Starting at $299</div>
+                            <button class="btn btn-success w-100">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Reusable Products" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Reusable Essentials</h5>
+                            <p>Reduce waste with sustainable alternatives</p>
+                            <div class="price mb-3">Starting at $19</div>
+                            <button class="btn btn-success w-100">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Tree Planting" class="card-img-top">
+                        <div class="card-body">
+                            <h5>Tree Planting Program</h5>
+                            <p>Plant trees to offset your carbon footprint</p>
+                            <div class="price mb-3">$5 per tree</div>
+                            <button class="btn btn-success w-100">Plant Trees</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-success text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-8 mx-auto">
+                    <blockquote class="blockquote">
+                        <p class="mb-4">"The Earth does not belong to us; we belong to the Earth. All things are connected like the blood that unites one family. Whatever befalls the Earth befalls the children of the Earth."</p>
+                        <footer class="blockquote-footer">
+                            <cite title="Source Title">Chief Seattle</cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Latest Environmental News</h2>
+                    <p class="section-subtitle">Stay informed about environmental issues and solutions</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Forest Conservation" class="card-img-top">
+                        <div class="card-body">
+                            <div class="blog-date">Dec 15, 2024</div>
+                            <h5>Why Forests Matter</h5>
+                            <p>Exploring the crucial role forests play in climate regulation and biodiversity.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1583212292454-1fe6229603b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Ocean Cleanup" class="card-img-top">
+                        <div class="card-body">
+                            <div class="blog-date">Dec 12, 2024</div>
+                            <h5>Ocean Cleanup Success</h5>
+                            <p>How innovative technologies are helping remove plastic from our oceans.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="blog-card">
+                        <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Renewable Energy" class="card-img-top">
+                        <div class="card-body">
+                            <div class="blog-date">Dec 10, 2024</div>
+                            <h5>Renewable Energy Growth</h5>
+                            <p>The rapid expansion of solar and wind power around the world.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="blog-card">
+                        <img src="https://images.pexels.com/photos/4207909/pexels-photo-4207909.jpeg" alt="Climate Action" class="card-img-top">
+                        <div class="card-body">
+                            <div class="blog-date">Dec 8, 2024</div>
+                            <h5>Climate Action Now</h5>
+                            <p>Simple steps everyone can take to reduce their environmental impact.</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-5 bg-light">
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-subtitle">Common questions about environmental issues and solutions</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    What causes climate change?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Climate change is primarily caused by human activities that increase greenhouse gas concentrations in the atmosphere, particularly carbon dioxide from burning fossil fuels, deforestation, and industrial processes.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    How can I reduce my carbon footprint?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You can reduce your carbon footprint by using renewable energy, driving less, eating less meat, reducing waste, using energy-efficient appliances, and supporting sustainable products and companies.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Why is biodiversity important?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Biodiversity is crucial for ecosystem stability, food security, medicine, climate regulation, and overall planetary health. Each species plays a unique role in maintaining ecological balance.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    What is sustainable living?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Sustainable living means adopting lifestyle choices that reduce your environmental impact by using resources responsibly, minimizing waste, and supporting practices that can be maintained long-term without depleting natural resources.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    How do renewable energy sources help the environment?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Renewable energy sources like solar, wind, and hydroelectric power produce clean energy without emitting greenhouse gases, reducing air pollution, and helping combat climate change while providing sustainable energy for the future.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row text-center mb-5">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">We’d love to hear from you! Here’s how you can reach us.</p>
+            </div>
+            </div>
+            <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="contact-info p-4 rounded">
+                <ul class="list-unstyled">
+                    <li class="mb-4 d-flex align-items-start">
+                    <i class="bi bi-geo-alt-fill me-3 fs-4 text-success"></i>
+                    <div>
+                        <strong>Address:</strong><br>
+                        XXXX, XXXXX,<br>
+                        XXXXX, XXXXXX XXXXXX
+                    </div>
+                    </li>
+                    <li class="mb-4 d-flex align-items-start">
+                    <i class="bi bi-telephone-fill me-3 fs-4 text-success"></i>
+                    <div>
+                        <strong>Phone:</strong><br>
+                        +91 XXXXX XXXXX
+                    </div>
+                    </li>
+                    <li class="mb-4 d-flex align-items-start">
+                    <i class="bi bi-envelope-fill me-3 fs-4 text-success"></i>
+                    <div>
+                        <strong>Email:</strong><br>
+                        contact@planetearth.com
+                    </div>
+                    </li>
+                    <li class="d-flex align-items-start">
+                    <i class="bi bi-clock-fill me-3 fs-4 text-success"></i>
+                    <div>
+                        <strong>Office Hours:</strong><br>
+                        Mon – Fri: 9:00 AM – 9:00 PM
+                    </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Planet Earth</h5>
+                    <p>Dedicated to environmental awareness, sustainability, and protecting our planet for future generations.</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white-50">Home</a></li>
+                        <li><a href="#about" class="text-white-50">About</a></li>
+                        <li><a href="#gallery" class="text-white-50">Gallery</a></li>
+                        <li><a href="#climate" class="text-white-50">Climate</a></li>
+                        <li><a href="#blog" class="text-white-50">Blog</a></li>
+                        <li><a href="#contact" class="text-white-50">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50">Environmental Tips</a></li>
+                        <li><a href="#" class="text-white-50">Sustainability Guide</a></li>
+                        <li><a href="#" class="text-white-50">Climate Data</a></li>
+                        <li><a href="#" class="text-white-50">Conservation Projects</a></li>
+                        <li><a href="#" class="text-white-50">Get Involved</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Stay updated with environmental news and tips.</p>
+                    <!-- <form class="newsletter-form">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Your email">
+                            <button class="btn btn-success" type="submit">Subscribe</button>
+                        </div>
+                    </form> -->
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Planet Earth. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white-50 me-3">Privacy Policy</a>
+                    <a href="#" class="text-white-50">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+</merged_code>
